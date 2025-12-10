@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+.main-box {
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 180px;
+    background: #e8f2f8;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    border: 2px solid #b7d1ea;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    background: #3e7bdc;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 18px;
+}
+
+.circle.blue {
+    background: #0000ff;
+}
+
+h3 {
+    margin: 8px 0;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+}
