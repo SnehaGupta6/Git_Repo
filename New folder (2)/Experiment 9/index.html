@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Menu Demo</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin:0;
+            padding:0;
+        }
+
+        h1{
+            text-align:center;
+            margin-top:20px;
+            font-size:40px;
+        }
+
+        .wrapper{
+            width:90%;
+            margin:0 auto;
+            margin-top:30px;
+        }
+
+        h2{
+            margin:20px 0 10px;
+            font-size:24px;
+        }
+
+        ul{
+            margin:0;
+            padding:0;
+            list-style:none;
+        }
+
+        /* ----- Block Example ----- */
+        .block-nav li a{
+            display:block;
+            background:#1e88e5;
+            color:#fff;
+            padding:10px;
+            text-decoration:none;
+            margin-bottom:5px;
+        }
+
+        /* ----- Inline Example ----- */
+        .inline-nav li{
+            display:inline;
+        }
+        .inline-nav li a{
+            background:#2ecc71;
+            color:#fff;
+            text-decoration:none;
+            padding:5px 15px;
+            margin-right:5px;
+        }
+
+        /* ----- Inline-Block Example ----- */
+        .inline-block-nav li{
+            display:inline-block;
+            margin-right:10px;
+        }
+        .inline-block-nav li a{
+            background:#9b59b6;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 20px;
+            display:block;
+        }
+
+        /* ----- Float Example ----- */
+        .float-nav:after{
+            content:"";
+            display:block;
+            clear:both;
+        }
+        .float-nav li{
+            float:left;
+            margin-right:15px;
+        }
+        .float-nav li a{
+            background:#e67e22;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 20px;
+            display:block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Navigation Menu Demo</h1>
+
+<div class="wrapper">
+
+    <h2>Block Example</h2>
+    <ul class="block-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <h2>Inline Example</h2>
+    <ul class="inline-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <h2>Inline-Block Example</h2>
+    <ul class="inline-block-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <h2>Float Example</h2>
+    <ul class="float-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+</div>
+
+</body>
+</html>
