@@ -187,3 +187,23 @@ button:hover {
 .project:hover {
     transform: translateY(-6px);
 }
+
+nav ul li a {
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #667eea;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
