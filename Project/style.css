@@ -71,6 +71,15 @@ nav ul li a:hover {
 .home button:hover {
     background: #028f96;
 }
+.home {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+}
+
+
+
 
 section {
     padding: 60px 80px;
