@@ -207,3 +207,11 @@ nav ul li a:hover::after {
 .home {
     padding: 60px 20px;
 }
+
+section {
+    transition: background 0.4s ease;
+}
+
+section:hover {
+    background: #f5f7ff;
+}
